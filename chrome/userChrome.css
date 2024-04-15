@@ -1,0 +1,7 @@
+:root {
+  /* Минимальная высота вкладок */
+  --tab-min-height: 30px !important;
+
+  --toolbarbutton-border-radius: 12px !important;
+  --tab-border-radius: 8px !important;
+}
