@@ -4,6 +4,8 @@
 
   --toolbarbutton-border-radius: 12px !important;
   --tab-border-radius: 8px !important;
+
+  --arrowpanel-menuitem-padding: 6px !important;
 }
 
 .tab-icon-sound-label {
