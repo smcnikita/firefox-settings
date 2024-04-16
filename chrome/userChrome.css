@@ -5,3 +5,7 @@
   --toolbarbutton-border-radius: 12px !important;
   --tab-border-radius: 8px !important;
 }
+
+.tab-icon-sound-label {
+  font-size: 6px !important;
+}
