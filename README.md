@@ -10,4 +10,4 @@ about:profiles
 Корневой каталог
 ```
 
-- [Theme - Synthwave '84](https://addons.mozilla.org/ru/firefox/addon/synthwave-84-navigator-version/)
+- [My themes](https://github.com/smcnikita/firefox-themes)
