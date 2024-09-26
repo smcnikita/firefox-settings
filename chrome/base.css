@@ -1,0 +1,17 @@
+:root {
+  /* Минимальная высота вкладок */
+  --tab-min-height: 30px !important;
+
+  /* --toolbarbutton-border-radius: 12px !important; */
+  /* --tab-border-radius: 5px !important; */
+
+  --arrowpanel-menuitem-padding: 6px !important;
+}
+
+.tab-icon-sound-label {
+  font-size: 6px !important;
+}
+
+#alltabs-button .toolbarbutton-icon {
+  width: 12px !important;
+}
