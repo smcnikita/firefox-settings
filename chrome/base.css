@@ -11,3 +11,7 @@
 .tab-icon-sound-label {
   font-size: 6px !important;
 }
+
+#alltabs-button {
+  display: none !important;
+}
