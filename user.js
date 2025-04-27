@@ -40,3 +40,10 @@ user_pref("app.normandy.api_url", "");
 user_pref("breakpad.reportURL", "");
 user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
+
+/*
+-----
+Пользовательские стили (1 правило)
+-----
+*/
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
