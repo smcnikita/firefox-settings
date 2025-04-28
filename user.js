@@ -1,4 +1,4 @@
-// Общее количество правил: 24
+// Общее количество правил: 26
 
 /*
 -----
@@ -47,3 +47,11 @@ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 -----
 */
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+
+/*
+-----
+Новая вкладка (2 правило)
+-----
+*/
+user_pref("browser.newtabpage.activity-stream.newtabShortcuts.refresh", true);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
