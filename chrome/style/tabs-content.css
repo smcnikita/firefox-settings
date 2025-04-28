@@ -1,0 +1,33 @@
+/* -----------------------------------------------
+ * Содержимое вкладок (иконки, кнопки)
+ * --------------------------------------------- */
+
+/* Контейнер вкладки позиционируется относительно */
+.tab-content {
+  position: relative !important;
+}
+
+/* Кнопка закрытия вкладки */
+.tab-close-button {
+  position: absolute !important;
+  width: 16px !important;
+  height: 16px !important;
+  padding: 2px !important;
+  margin-inline-end: 0 !important;
+  left: 8px !important;
+}
+
+/* Скрытие кнопки закрытия по умолчанию */
+.tab-content > image.tab-close-button.close-icon {
+  display: none !important;
+}
+
+/* Показ кнопки закрытия при наведении на вкладку */
+.tab-content:hover > image.tab-close-button.close-icon {
+  display: block !important;
+}
+
+/* Скрытие иконки сайта (favicon) при наведении */
+.tab-content:hover > .tab-icon-stack {
+  visibility: hidden !important;
+}

@@ -1,13 +1,24 @@
-/* Картинка на новой вкладке */
+/* -----------------------------------------------
+ * Кастомизация страниц about:home и about:newtab
+ * (страница новой вкладки и домашняя страница)
+ * --------------------------------------------- */
 @-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+  /* Стилизация текста на новой вкладке (цвет и тени) */
   .click-target-container *,
   .top-sites-list * {
+    /* Цвет текста на новой вкладке */
     /* color: #fff !important; */
+
+    /* Тень текста для лучшей читаемости на фоне */
     /* text-shadow: 2px 2px 2px #000 !important; */
   }
 
+  /* Настройка фонового изображения */
   body {
-    /* background: url("./bg/bg.png") !important; */
+    /* Фоновое изображение для новой вкладки */
+    /* background: url("./bg/bg.png") no-repeat center center fixed !important; */
+
+    /* Масштабирование фонового изображения */
     /* background-size: cover !important; */
   }
 }
