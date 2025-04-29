@@ -1,4 +1,4 @@
-// Общее количество правил: 26
+// Общее количество правил: 29
 
 /*
 -----
@@ -43,15 +43,24 @@ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 
 /*
 -----
-Пользовательские стили (1 правило)
+Пользовательские стили (1 правило) 
 -----
 */
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
 /*
 -----
-Новая вкладка (2 правило)
+Новая вкладка (4 правила)
 -----
 */
 user_pref("browser.newtabpage.activity-stream.newtabShortcuts.refresh", true);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+user_pref("browser.newtabpage.activity-stream.showSponsored", false);
+user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+
+/*
+-----
+Pocket (1 правило)
+-----
+*/
+user_pref("extensions.pocket.enabled", false);
