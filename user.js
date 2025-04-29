@@ -1,4 +1,4 @@
-// Общее количество правил: 36
+// Общее количество правил: 37
 
 /*
 -----
@@ -77,3 +77,10 @@ user_pref("full-screen-api.transition-duration.leave", "10 10");
 user_pref("full-screen-api.warning.timeout", 0);
 user_pref("full-screen-api.transition.timeout", 0);
 user_pref("full-screen-api.warning.delay", 0);
+
+/*
+-----
+Поисковая система (1 правило)
+-----
+*/
+user_pref("browser.urlbar.update2.engineAliasRefresh", true);
