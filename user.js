@@ -43,7 +43,7 @@ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 
 /*
 -----
-Пользовательские стили (1 правило) 
+Пользовательские стили (1 правило)
 -----
 */
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
@@ -84,3 +84,21 @@ user_pref("full-screen-api.warning.delay", 0);
 -----
 */
 user_pref("browser.urlbar.update2.engineAliasRefresh", true);
+
+/*
+-----
+Вкладки (5 правила)
+-----
+*/
+user_pref("browser.tabs.closeWindowWithLastTab", false);
+user_pref("browser.tabs.hoverPreview.enabled", false);
+user_pref("browser.tabs.hoverPreview.showThumbnails", false);
+user_pref("browser.tabs.allowTabDetach", false);
+user_pref("browser.tabs.firefox-view.ui-state.syncedtabs.open", false);
+
+/*
+-----
+Панель инструментов (1 правило)
+-----
+*/
+user_pref("browser.chrome.toolbar_tips", false);
