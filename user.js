@@ -1,4 +1,4 @@
-// Общее количество правил: 43
+// Общее количество правил: 44
 
 /*
 -----
@@ -87,7 +87,7 @@ user_pref("browser.urlbar.update2.engineAliasRefresh", true);
 
 /*
 -----
-Вкладки (5 правила)
+Вкладки (6 правил)
 -----
 */
 user_pref("browser.tabs.closeWindowWithLastTab", false);
@@ -95,6 +95,7 @@ user_pref("browser.tabs.hoverPreview.enabled", false);
 user_pref("browser.tabs.hoverPreview.showThumbnails", false);
 user_pref("browser.tabs.allowTabDetach", false);
 user_pref("browser.tabs.firefox-view.ui-state.syncedtabs.open", false);
+user_pref("sidebar.revamp.round-content-area", true);
 
 /*
 -----
