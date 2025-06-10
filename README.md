@@ -1,13 +1,13 @@
-## Профили
+## Profiles
 
-`about:profiles` → Корневой каталог
+`about:profiles` → Root Directory
 
-## Поисковая система
+## Search engine
 
 ```txt
 https://www.google.com/search?udm=14&q=%s
 ```
 
-## Темы
+## Themes
 
-[Мои темы для Firefox](https://github.com/smcnikita/firefox-themes)
+[My themes for Firefox](https://github.com/smcnikita/firefox-themes)
