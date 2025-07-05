@@ -1,17 +1,25 @@
 /* 
 
+-> Vertical tabs
+
+*/
+
+@import url("./style/pinned-tab.css");
+
+@import url("./icons/searchBar.css");
+@import url("./icons/toolbar.css");
+
+/* 
+
 -> Horizontal tabs
+
+@import url("./style/variables.css");
+@import url("./style/tabs-dimensions.css");
+@import url("./style/tabs-content.css");
+@import url("./style/tabs-appearance.css");
+@import url("./style/global-hidden.css");
 
 @import url("./icons/searchBar.css");
 @import url("./icons/toolbar.css");
 
 */
-
-@import url("./style/variables.css"); 
-@import url("./style/tabs-dimensions.css"); 
-@import url("./style/tabs-content.css");
-@import url("./style/tabs-appearance.css"); 
-@import url("./style/global-hidden.css");
-
-@import url("./icons/searchBar.css");
-@import url("./icons/toolbar.css");
