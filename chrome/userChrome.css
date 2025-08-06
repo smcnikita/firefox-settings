@@ -5,12 +5,10 @@
 */
 
 @import url("./style/pinned-tab.css");
+@import url("./style/github.css");
 
 @import url("./icons/searchBar.css");
 @import url("./icons/toolbar.css");
-
-@import url("./icons/github.css");
-
 
 /* 
 
@@ -21,10 +19,9 @@
 @import url("./style/tabs-content.css");
 @import url("./style/tabs-appearance.css");
 @import url("./style/global-hidden.css");
+@import url("./style/github.css");
 
 @import url("./icons/searchBar.css");
 @import url("./icons/toolbar.css");
-
-@import url("./icons/github.css");
 
 */
