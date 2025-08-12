@@ -4,10 +4,10 @@
 
 */
 
-/* @import url("./style/variables.css"); */
-/* @import url("./style/tabs-dimensions.css"); */
+@import url("./style/variables.css");
+@import url("./style/tabs-dimensions.css");
 @import url("./style/tabs-content.css");
-/* @import url("./style/tabs-appearance.css"); */
+@import url("./style/tabs-appearance.css");
 @import url("./style/github.css");
 
 @import url("./icons/searchBar.css");
